@@ -1,0 +1,13 @@
+site_name: NetAutLabs
+site_description: Open-Source Network Automation Labs
+
+nav:
+  - Home: "index.md"
+
+repo_url: https://github.com/NetAutLabs/netautlabs
+repo_name: NetAutLabs/netautlabs
+
+theme:
+  name: material
+  features:
+    - navigation.tracking

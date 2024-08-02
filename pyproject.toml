@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "netautlabs"
+version = "0.1.0"
+description = "Open-Source Network Automation Labs"
+authors = ["Urs Baumann <github@m.ubaumann.ch>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.30"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
