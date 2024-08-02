@@ -4,6 +4,18 @@ site_url: https://netautlabs.net
 
 nav:
   - Home: "index.md"
+  - "Configuration Management":
+    - configuration_management/comming_soon.md
+  - "Python":
+    - python/comming_soon.md
+  - "GoLang":
+    - golang/comming_soon.md
+  - "Testing and CI/CD":
+    - testing/comming_soon.md
+  - "Network Resource Managers":
+    - resource_managers/comming_soon.md
+  - "Foundational Skills":
+    - foundation/comming_soon.md
 
 repo_url: https://github.com/NetAutLabs/netautlabs
 repo_name: NetAutLabs/netautlabs
