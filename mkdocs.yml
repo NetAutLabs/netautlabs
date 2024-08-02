@@ -1,5 +1,6 @@
 site_name: NetAutLabs
 site_description: Open-Source Network Automation Labs
+site_url: https://netautlabs.net
 
 nav:
   - Home: "index.md"
@@ -9,5 +10,20 @@ repo_name: NetAutLabs/netautlabs
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: purple
+  language: en
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
   features:
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+
+plugins:
+  - search
+  - social
+  - tags
