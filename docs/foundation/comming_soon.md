@@ -1,4 +1,0 @@
----
-Foundational Skills
----
-Coming soon ...
