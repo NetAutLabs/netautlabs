@@ -13,6 +13,7 @@ python = "^3.10"
 [tool.poetry.group.dev.dependencies]
 mkdocs = "^1.6.0"
 mkdocs-material = {extras = ["imaging"], version = "^9.5.31"}
+mkdocs-include-dir-to-nav = "^1.2.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -39,3 +39,4 @@ plugins:
   - search
   - social
   - tags
+  - include_dir_to_nav
