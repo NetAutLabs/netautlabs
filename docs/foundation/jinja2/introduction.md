@@ -10,7 +10,14 @@ tags:
 The following exercises provide a basic introduction to Jinja2 templating.
 
 
-To verify your solution, you can use online Jinja sandboxes like [Jinja101](https://jinja101.infrastructureascode.ch/) or Python libraries like [Nettowel](https://pypi.org/project/nettowel/).
+To verify your solution, you can use an online Jinja sandbox like [Jinja101](https://jinja101.infrastructureascode.ch/) or the Python CLI tool [Nettowel](https://pypi.org/project/nettowel/).
+
+!!! tip
+
+    You can install "nettowel" with [`pipx`](https://pipx.pypa.io/stable/):
+    ```bash
+    pipx install nettowel[full]
+    ``` 
 
 
 ## Find the input data
