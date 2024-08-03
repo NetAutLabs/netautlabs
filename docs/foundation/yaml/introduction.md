@@ -32,8 +32,8 @@ The following exercises provide a basic introduction to YAML. To verify your sol
     "host": "Switch01",
     "ip": "10.11.12.13",
     "dns": "8.8.8.8",
-    "domain_name": "lab.ins.hsr.ch",
-    "fqdn": "Switch01.lab.ins.hsr.ch"
+    "domain_name": "network.automation.lab",
+    "fqdn": "Switch01.network.automation.lab"
 }
 ```
 
@@ -44,8 +44,8 @@ The following exercises provide a basic introduction to YAML. To verify your sol
     host: Switch01
     ip: 10.11.12.13
     dns: 8.8.8.8
-    domain_name: lab.ins.hsr.ch
-    fqdn: Switch01.lab.ins.hsr.ch
+    domain_name: network.automation.lab
+    fqdn: Switch01.network.automation.lab
     ...
     ```
 
@@ -225,7 +225,7 @@ The following exercises provide a basic introduction to YAML. To verify your sol
     ```yaml
     ---
     hostname: sw01
-    domain-name: lab.ins.hsr.ch
+    domain-name: network.automation.lab
     dns:
       - 1.1.1.1 # CloudFlare
       - 8.8.8.8 # Google DNS
