@@ -5,7 +5,8 @@ site_url: https://netautlabs.net
 nav:
   - Home: "index.md"
   - "Configuration Management":
-    - configuration_management/comming_soon.md
+    - "Ansible":
+      - ansible-collect-configs/README.md
   - "Python":
     - python/comming_soon.md
   - "GoLang":
@@ -42,6 +43,13 @@ plugins:
   - social
   - tags
   - include_dir_to_nav
+  - multirepo:
+      cleanup: true
+      keep_docs_dir: true
+      nav_repos:
+        - name: ansible-collect-configs
+          import_url: "https://github.com/NetAutLabs/ansible_collect_configs?branch=main&edit_uri=/blob/main/'"
+        
 
 markdown_extensions:
   - admonition
