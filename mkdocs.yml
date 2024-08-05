@@ -37,6 +37,8 @@ theme:
     - navigation.expand
     - content.code.copy
     - content.code.select
+  favicon: assets/logo.png
+  logo: assets/logo_transparent_head.png
 
 plugins:
   - search
