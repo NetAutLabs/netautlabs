@@ -5,7 +5,7 @@ tags:
   - introduction
 ---
 
-# Basic templates
+# Basic Templating
 
 The following exercises provide a basic introduction to Jinja2 templating.
 

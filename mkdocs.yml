@@ -3,7 +3,9 @@ site_description: Open-Source Network Automation Labs
 site_url: https://netautlabs.net
 
 nav:
-  - Home: "index.md"
+  - Home:
+    - "index.md"
+    - "tags.md"
   - "Configuration Management":
     - "Ansible":
       - ansible-collect-configs/README.md
@@ -41,7 +43,8 @@ theme:
 plugins:
   - search
   - social
-  - tags
+  - tags:
+      tags_file: tags.md
   - include_dir_to_nav
   - multirepo:
       cleanup: true

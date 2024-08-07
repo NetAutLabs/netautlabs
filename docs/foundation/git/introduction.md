@@ -4,7 +4,7 @@ tags:
   - introduction
 ---
 
-# Introduction
+# Git Introduction
 
 Git is the de facto standard version control system and will be invaluable in your future network automation projects. If you are not familiar with the basic usage of Git, there are many excellent tutorials and blog posts available.
 
