@@ -10,7 +10,8 @@ nav:
     - "Ansible":
       - ansible-collect-configs/README.md
   - "Python":
-    - python/comming_soon.md
+    - "PyTest":
+      - python-pytest-device-helper/README.md
   - "GoLang":
     - golang/comming_soon.md
   - "Testing and CI/CD":
@@ -52,6 +53,8 @@ plugins:
       nav_repos:
         - name: ansible-collect-configs
           import_url: "https://github.com/NetAutLabs/ansible_collect_configs?branch=main&edit_uri=/blob/main/'"
+        - name: python-pytest-device-helper
+          import_url: "https://github.com/NetAutLabs/python_pytest_device_helper?branch=main&edit_uri=/blob/main/'"
         
 
 markdown_extensions:
