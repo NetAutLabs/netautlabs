@@ -3,9 +3,7 @@ site_description: Open-Source Network Automation Labs
 site_url: https://netautlabs.net
 
 nav:
-  - Home:
-    - "index.md"
-    - "tags.md"
+  - Home: "index.md"
   - "Configuration Management":
     - "Ansible":
       - ansible-collect-configs/README.md
@@ -20,6 +18,7 @@ nav:
     - resource_managers/comming_soon.md
   - "Foundational Skills":
     - foundation
+  - Tags: tags.md
 
 repo_url: https://github.com/NetAutLabs/netautlabs
 repo_name: NetAutLabs/netautlabs
