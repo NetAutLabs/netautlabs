@@ -10,6 +10,8 @@ nav:
   - "Python":
     - "PyTest":
       - python-pytest-device-helper/README.md
+    - "Nornir":
+      - nornir-mpls-l3-vpn-servic/README.md
   - "GoLang":
     - golang/comming_soon.md
   - "Testing and CI/CD":
@@ -54,6 +56,8 @@ plugins:
           import_url: "https://github.com/NetAutLabs/ansible_collect_configs?branch=main&edit_uri=/blob/main/'"
         - name: python-pytest-device-helper
           import_url: "https://github.com/NetAutLabs/python_pytest_device_helper?branch=main&edit_uri=/blob/main/'"
+        - name: nornir-mpls-l3-vpn-servic
+          import_url: "https://github.com/NetAutLabs/nornir_mpls_l3_vpn_service?branch=main&edit_uri=/blob/main/'"
         
 
 markdown_extensions:
@@ -72,3 +76,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
