@@ -7,6 +7,8 @@ nav:
   - "Configuration Management":
     - "Ansible":
       - ansible-collect-configs/README.md
+    - "StackStorm":
+      - st2-webhook/README.md
   - "Python":
     - "PyTest":
       - python-pytest-device-helper/README.md
@@ -58,6 +60,12 @@ plugins:
           import_url: "https://github.com/NetAutLabs/python_pytest_device_helper?branch=main&edit_uri=/blob/main/'"
         - name: nornir-mpls-l3-vpn-servic
           import_url: "https://github.com/NetAutLabs/nornir_mpls_l3_vpn_service?branch=main&edit_uri=/blob/main/'"
+        - name: st2-webhook
+          import_url: "https://github.com/NetAutLabs/st2_webhook?branch=main&edit_uri=/blob/main/'"
+          imports: [
+            imgs/*.png,
+            /README.md,
+            ]
         
 
 markdown_extensions:
