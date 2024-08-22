@@ -14,6 +14,8 @@ nav:
       - python-pytest-device-helper/README.md
     - "Nornir":
       - nornir-mpls-l3-vpn-servic/README.md
+    - "Napalm":
+      - topology-with-napalm/README.md
   - "GoLang":
     - golang/comming_soon.md
   - "Testing and CI/CD":
@@ -64,6 +66,12 @@ plugins:
           import_url: "https://github.com/NetAutLabs/st2_webhook?branch=main&edit_uri=/blob/main/'"
           imports: [
             imgs/*.png,
+            /README.md,
+            ]
+        - name: topology-with-napalm
+          import_url: "https://github.com/NetAutLabs/topology_with_napalm?branch=main&edit_uri=/blob/main/'"
+          imports: [
+            imgs/*.svg,
             /README.md,
             ]
         
