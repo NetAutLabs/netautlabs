@@ -48,7 +48,7 @@ Currently, the planned structure is as follows, though it may change over time:
 
 ### Codespaces
 
-The Opensource Network Automation Labs provide the convenience of starting many labs directly in [GitHub codespaces](https://github.com/features/codespaces). However, please note that there are some limitations to be aware of. Codespaces do not support virtual machine (VM) functionality and have limited support for Linux kernel modules.
+The Opensource Network Automation Labs provide the convenience of starting many labs directly in [GitHub codespaces](https://github.com/features/codespaces). This is an easy way to set up the environment without needing to install it locally.
 
 Please note that within the free tier, users have a limited number of free minutes to utilize codespaces per month. For more details, refer to the [pricing page](https://github.com/features/codespaces#pricing).
 
