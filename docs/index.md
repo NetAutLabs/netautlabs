@@ -4,6 +4,8 @@ hide:
 ---
 # Open-Source Network Automation Labs
 
+![demo](assets/demo.gif)
+
 ## Idea
 
 Over the next few weeks, we will continuously add new labs. Our ultimate goal is to develop a community-driven lab collection.
