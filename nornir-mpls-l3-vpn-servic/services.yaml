@@ -1,0 +1,35 @@
+---
+services:
+  - name: "CustA"
+    id: 100
+    description: "Customer A"
+    route_import:
+      - "100:0"
+    route_export:
+      - "100:0"
+    sites:
+        site-A:
+            interfaces:
+            - name: "Ethernet 2"
+              ip: "172.16.0.1/24"
+        site-B:
+            interfaces:
+            - name: "Ethernet 2"
+              ip: "172.16.2.2/24"
+
+  - name: "CustB"
+    id: 200
+    description: "Customer B"
+    route_import:
+      - "200:0"
+    route_export:
+      - "200:0"
+    sites:
+        site-A:
+            interfaces:
+            - name: "Ethernet 3"
+              ip: "172.16.1.1/24"
+        # site-B:
+        #     interfaces:
+        #     - name: "Ethernet 3"
+        #       ip: "172.16.3.2/24"
